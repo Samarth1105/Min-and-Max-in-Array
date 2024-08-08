@@ -1,7 +1,6 @@
 class Solution {
   public:
     pair<long long, long long> getMinMax(vector<long long int> arr) {
-        // code here
         int max_num= INT_MIN;
         int min_num= INT_MAX;
         int arrSize= arr.size();
